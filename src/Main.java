@@ -9,7 +9,7 @@ public  class Main {
         int sum = firstNumber + secondNumber;
         int rest = firstNumber - secondNumber;
         int mul = firstNumber * secondNumber;
-        double quotient = firstNumber / secondNumber;
+        double quotient = (double) firstNumber / secondNumber;
 
         System.out.println("Сумма: " + sum);
         System.out.println("Разница :" + rest);
